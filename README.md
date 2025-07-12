@@ -37,17 +37,25 @@ Stippled pattern: Checkered pattern fill
 Controls:
 
 0-4: Switch between different demos
+
 R: Rotate objects (in transformation demo)
+
 T: Translate objects (in transformation demo)
+
 S: Scale objects (in transformation demo)
+
 C: Toggle clipping (in clipping demo)
+
 W: Toggle wireframe mode globally
+
 ESC: Exit program
 
 Compilation Instructions:
-bashg++ -o graphics_demo graphics_demo.cpp -lGL -lGLU -lglut
-Key Learning Points:
+bash
 
+g++ -o graphics_demo graphics_demo.cpp -lGL -lGLU -lglut
+
+Key Learning Points:
 Shape Creation: Using OpenGL primitives (GL_TRIANGLES, GL_QUADS, GL_POLYGON)
 Matrix Transformations: Using glTranslate, glRotate, glScale
 Clipping: Using glScissor for rectangular clipping
